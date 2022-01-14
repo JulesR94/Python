@@ -20,7 +20,6 @@ print(somme)
 
 def saluer(nom = 'Visiteur'):
     print('Bonjour ' + nom)
-def
 
 saluer('Clem')
 saluer()
