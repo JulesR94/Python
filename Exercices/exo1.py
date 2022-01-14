@@ -13,7 +13,7 @@ else:
 
 
 c = int (input("Entré votre un nombre entier C positif: "))
-while c < 0 or C > 40000 :
+while c < 0 or c > 40000 :
     c = int (input("Votre chiffre C doit être compris entre 0 et 40000: "))
 else:
     print("Votre chiffre C est valide")
