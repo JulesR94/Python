@@ -1,8 +1,8 @@
-n = int (input ("Entré un nombre pour obtenir sa racine carré: "))
-i = 1
+#n = int(input("Votre racine carré :"))
+#print(pow(n, 0.5))
+n = int (input("Entré votre nombre pour savoir son carré :"))
+val = 0.5
+n = n**(val)
+print(n)
 
-while n != n%0.001 :
-    i = i + 1
-    n = (n*n)/i
-    print(n)
-    break 
+#Désole mais je suis resté 3 dessus et je ne trouve pas d'autres solutiions qu'avec ces fonctions    
